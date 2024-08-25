@@ -1,0 +1,35 @@
+{
+  "name": "time-farm-auto-mine",
+  "version": "1.0.0",
+  "description": "Time farm is a telegram auto mining app",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsx index.ts"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Auspicious14/Time-farm-auto-mine.git"
+  },
+  "keywords": [
+    "auto",
+    "mine"
+  ],
+  "author": "Auspicious",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Auspicious14/Time-farm-auto-mine/issues"
+  },
+  "homepage": "https://github.com/Auspicious14/Time-farm-auto-mine#readme",
+  "dependencies": {
+    "axios": "^1.7.5",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "tsx": "^4.18.0"
+  }
+}
